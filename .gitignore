@@ -1,0 +1,13 @@
+
+.DS_Store
+*.bin
+*.len
+*.lock
+.gradle/7.3.3/dependencies-accessors/gc.properties
+.gradle/7.3.3/gc.properties
+.gradle/buildOutputCleanup/cache.properties
+.gradle/vcs-1/gc.properties
+*.xml
+/build/
+/.idea/
+*.probe
