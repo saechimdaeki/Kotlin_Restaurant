@@ -15,7 +15,9 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
     testImplementation("org.assertj:assertj-core:3.23.1")
-    testImplementation("org.junit.jupiter:junit-jupiter-params:5.4.2")
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.9.0")
+    implementation("com.google.code.gson:gson:2.10")
+
 
 }
 
