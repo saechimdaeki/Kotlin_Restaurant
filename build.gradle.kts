@@ -5,6 +5,14 @@ plugins {
     application
 }
 
+
+//레시피 8-5
+val myProperty: String by project
+val myNullableProperty: String? by project
+
+val myNewProperty by extra("initial value")
+val myOtherNewProperty by extra { "lazy initial value" }
+
 group = "saechimdaeki"
 version = "1.0-SNAPSHOT"
 
