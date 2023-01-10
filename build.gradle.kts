@@ -21,11 +21,14 @@ repositories {
 }
 
 dependencies {
-    implementation("junit:junit:4.13.1")
+    implementation("junit:junit:4.13.2")
     testImplementation(kotlin("test"))
     testImplementation("org.assertj:assertj-core:3.23.1")
     testImplementation("org.junit.jupiter:junit-jupiter-params:5.9.0")
     implementation("com.google.code.gson:gson:2.10")
+    testImplementation("io.kotest:kotest-runner-junit5:5.5.4")
+    testImplementation("io.kotest:kotest-assertions-core:5.5.4")
+    testImplementation("io.mockk:mockk:1.13.2")
 
 
 }
