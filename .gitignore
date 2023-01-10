@@ -11,3 +11,5 @@
 /build/
 /.idea/
 *.probe
+*.class
+*.kotlin_module
